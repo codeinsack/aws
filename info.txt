@@ -1,0 +1,12 @@
+aws cognito-idp sign-up \
+--region us-east-1 \
+--client-id uegtdp65lgjisk0rcalj5tnev \
+--username admin@example.com \
+--password Passw0rd!
+
+aws cognito-idp admin-confirm-sign-up \
+--region us-east-1 \
+--user-pool-id us-east-1_KC5h6CiS7 \
+--username admin@example.com
+
+page 96
